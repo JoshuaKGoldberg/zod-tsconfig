@@ -1,6 +1,6 @@
 {
 	"name": "zod-tsconfig",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "Zod schemas for TypeScript's TSConfig properties. ⚙️",
 	"repository": {
 		"type": "git",
