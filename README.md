@@ -1,4 +1,4 @@
-<h1 align="center">Zod Tsconfig</h1>
+<h1 align="center">Zod TSConfig</h1>
 
 <p align="center">
 	Zod schemas for TypeScript's TSConfig properties.
