@@ -73,7 +73,7 @@ export const CompilerOptionsSchema = z.object({
 	importHelpers: z.boolean().optional(),
 
 	/** @deprecated */
-	importsNotUsedAsValues: ImportsNotUsedAsValuesSchema,
+	importsNotUsedAsValues: ImportsNotUsedAsValuesSchema.optional(),
 
 	inlineSourceMap: z.boolean().optional(),
 
@@ -83,7 +83,7 @@ export const CompilerOptionsSchema = z.object({
 
 	isolatedModules: z.boolean().optional(),
 
-	jsx: JsxEmitSchema,
+	jsx: JsxEmitSchema.optional(),
 
 	/** @deprecated */
 	keyofStringsOnly: z.boolean().optional(),
@@ -98,15 +98,15 @@ export const CompilerOptionsSchema = z.object({
 
 	maxNodeModuleJsDepth: z.number().optional(),
 
-	module: ModuleKindSchema,
+	module: ModuleKindSchema.optional(),
 
-	moduleDetection: ModuleDetectionKindSchema,
+	moduleDetection: ModuleDetectionKindSchema.optional(),
 
-	moduleResolution: ModuleResolutionKindSchema,
+	moduleResolution: ModuleResolutionKindSchema.optional(),
 
 	moduleSuffixes: z.array(z.string()).optional(),
 
-	newLine: NewLineKindSchema,
+	newLine: NewLineKindSchema.optional(),
 
 	noCheck: z.boolean().optional(),
 
@@ -224,7 +224,7 @@ export const CompilerOptionsSchema = z.object({
 
 	suppressImplicitAnyIndexErrors: z.boolean().optional(),
 
-	target: ScriptTargetSchema,
+	target: ScriptTargetSchema.optional(),
 
 	traceResolution: z.boolean().optional(),
 

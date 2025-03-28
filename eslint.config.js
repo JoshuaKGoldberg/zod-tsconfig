@@ -37,6 +37,8 @@ export default tseslint.config(
 			},
 		},
 		rules: {
+			"@typescript-eslint/no-deprecated": "off",
+
 			// Stylistic concerns that don't interfere with Prettier
 			"logical-assignment-operators": [
 				"error",
