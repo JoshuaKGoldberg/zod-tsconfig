@@ -10,233 +10,235 @@ import {
 	ScriptTargetSchema,
 } from "./enums.js";
 
-export const CompilerOptionsSchema = z.object({
-	allowArbitraryExtensions: z.boolean().optional(),
+export const CompilerOptionsSchema = z
+	.object({
+		allowArbitraryExtensions: z.boolean(),
 
-	allowImportingTsExtensions: z.boolean().optional(),
+		allowImportingTsExtensions: z.boolean(),
 
-	allowJs: z.boolean().optional(),
+		allowJs: z.boolean(),
 
-	allowSyntheticDefaultImports: z.boolean().optional(),
+		allowSyntheticDefaultImports: z.boolean(),
 
-	allowUmdGlobalAccess: z.boolean().optional(),
+		allowUmdGlobalAccess: z.boolean(),
 
-	allowUnreachableCode: z.boolean().optional(),
+		allowUnreachableCode: z.boolean(),
 
-	allowUnusedLabels: z.boolean().optional(),
+		allowUnusedLabels: z.boolean(),
 
-	alwaysStrict: z.boolean().optional(),
+		alwaysStrict: z.boolean(),
 
-	baseUrl: z.string().optional(),
+		baseUrl: z.string(),
 
-	/** @deprecated */
-	charset: z.string().optional(),
+		/** @deprecated */
+		charset: z.string(),
 
-	checkJs: z.boolean().optional(),
+		checkJs: z.boolean(),
 
-	customConditions: z.array(z.string()).optional(),
+		customConditions: z.array(z.string()),
 
-	declaration: z.boolean().optional(),
+		declaration: z.boolean(),
 
-	declarationDir: z.string().optional(),
+		declarationDir: z.string(),
 
-	declarationMap: z.boolean().optional(),
+		declarationMap: z.boolean(),
 
-	disableReferencedProjectLoad: z.boolean().optional(),
+		disableReferencedProjectLoad: z.boolean(),
 
-	disableSizeLimit: z.boolean().optional(),
+		disableSizeLimit: z.boolean(),
 
-	disableSolutionSearching: z.boolean().optional(),
+		disableSolutionSearching: z.boolean(),
 
-	disableSourceOfProjectReferenceRedirect: z.boolean().optional(),
+		disableSourceOfProjectReferenceRedirect: z.boolean(),
 
-	downlevelIteration: z.boolean().optional(),
+		downlevelIteration: z.boolean(),
 
-	emitBOM: z.boolean().optional(),
+		emitBOM: z.boolean(),
 
-	emitDeclarationOnly: z.boolean().optional(),
+		emitDeclarationOnly: z.boolean(),
 
-	emitDecoratorMetadata: z.boolean().optional(),
+		emitDecoratorMetadata: z.boolean(),
 
-	erasableSyntaxOnly: z.boolean().optional(),
+		erasableSyntaxOnly: z.boolean(),
 
-	esModuleInterop: z.boolean().optional(),
+		esModuleInterop: z.boolean(),
 
-	exactOptionalPropertyTypes: z.boolean().optional(),
+		exactOptionalPropertyTypes: z.boolean(),
 
-	experimentalDecorators: z.boolean().optional(),
+		experimentalDecorators: z.boolean(),
 
-	forceConsistentCasingInFileNames: z.boolean().optional(),
+		forceConsistentCasingInFileNames: z.boolean(),
 
-	ignoreDeprecations: z.string().optional(),
+		ignoreDeprecations: z.string(),
 
-	importHelpers: z.boolean().optional(),
+		importHelpers: z.boolean(),
 
-	/** @deprecated */
-	importsNotUsedAsValues: ImportsNotUsedAsValuesSchema.optional(),
+		/** @deprecated */
+		importsNotUsedAsValues: ImportsNotUsedAsValuesSchema,
 
-	inlineSourceMap: z.boolean().optional(),
+		inlineSourceMap: z.boolean(),
 
-	inlineSources: z.boolean().optional(),
+		inlineSources: z.boolean(),
 
-	isolatedDeclarations: z.boolean().optional(),
+		isolatedDeclarations: z.boolean(),
 
-	isolatedModules: z.boolean().optional(),
+		isolatedModules: z.boolean(),
 
-	jsx: JsxEmitSchema.optional(),
+		jsx: JsxEmitSchema,
 
-	/** @deprecated */
-	keyofStringsOnly: z.boolean().optional(),
+		/** @deprecated */
+		keyofStringsOnly: z.boolean(),
 
-	lib: z.array(z.string()).optional(),
+		lib: z.array(z.string()),
 
-	libReplacement: z.boolean().optional(),
+		libReplacement: z.boolean(),
 
-	locale: z.string().optional(),
+		locale: z.string(),
 
-	mapRoot: z.string().optional(),
+		mapRoot: z.string(),
 
-	maxNodeModuleJsDepth: z.number().optional(),
+		maxNodeModuleJsDepth: z.number(),
 
-	module: ModuleKindSchema.optional(),
+		module: ModuleKindSchema,
 
-	moduleDetection: ModuleDetectionKindSchema.optional(),
+		moduleDetection: ModuleDetectionKindSchema,
 
-	moduleResolution: ModuleResolutionKindSchema.optional(),
+		moduleResolution: ModuleResolutionKindSchema,
 
-	moduleSuffixes: z.array(z.string()).optional(),
+		moduleSuffixes: z.array(z.string()),
 
-	newLine: NewLineKindSchema.optional(),
+		newLine: NewLineKindSchema,
 
-	noCheck: z.boolean().optional(),
+		noCheck: z.boolean(),
 
-	noEmit: z.boolean().optional(),
+		noEmit: z.boolean(),
 
-	noEmitHelpers: z.boolean().optional(),
+		noEmitHelpers: z.boolean(),
 
-	noEmitOnError: z.boolean().optional(),
+		noEmitOnError: z.boolean(),
 
-	noErrorTruncation: z.boolean().optional(),
+		noErrorTruncation: z.boolean(),
 
-	noFallthroughCasesInSwitch: z.boolean().optional(),
+		noFallthroughCasesInSwitch: z.boolean(),
 
-	noImplicitAny: z.boolean().optional(),
+		noImplicitAny: z.boolean(),
 
-	noImplicitReturns: z.boolean().optional(),
+		noImplicitReturns: z.boolean(),
 
-	noImplicitThis: z.boolean().optional(),
+		noImplicitThis: z.boolean(),
 
-	/** @deprecated */
-	noStrictGenericChecks: z.boolean().optional(),
+		/** @deprecated */
+		noStrictGenericChecks: z.boolean(),
 
-	noUnusedLocals: z.boolean().optional(),
+		noUnusedLocals: z.boolean(),
 
-	noUnusedParameters: z.boolean().optional(),
+		noUnusedParameters: z.boolean(),
 
-	/** @deprecated */
-	assumeChangesOnlyAffectDirectDependencies: z.boolean().optional(),
+		/** @deprecated */
+		assumeChangesOnlyAffectDirectDependencies: z.boolean(),
 
-	noImplicitUseStrict: z.boolean().optional(),
+		noImplicitUseStrict: z.boolean(),
 
-	noLib: z.boolean().optional(),
+		noLib: z.boolean(),
 
-	noPropertyAccessFromIndexSignature: z.boolean().optional(),
+		noPropertyAccessFromIndexSignature: z.boolean(),
 
-	noResolve: z.boolean().optional(),
+		noResolve: z.boolean(),
 
-	noUncheckedIndexedAccess: z.boolean().optional(),
+		noUncheckedIndexedAccess: z.boolean(),
 
-	/** @deprecated */
-	noImplicitOverride: z.boolean().optional(),
+		/** @deprecated */
+		noImplicitOverride: z.boolean(),
 
-	out: z.string().optional(),
+		out: z.string(),
 
-	outDir: z.string().optional(),
+		outDir: z.string(),
 
-	outFile: z.string().optional(),
+		outFile: z.string(),
 
-	paths: z.record(z.string()).optional(),
+		paths: z.record(z.string()),
 
-	preserveConstEnums: z.boolean().optional(),
+		preserveConstEnums: z.boolean(),
 
-	preserveSymlinks: z.boolean().optional(),
+		preserveSymlinks: z.boolean(),
 
-	/** @deprecated */
-	composite: z.boolean().optional(),
+		/** @deprecated */
+		composite: z.boolean(),
 
-	incremental: z.boolean().optional(),
+		incremental: z.boolean(),
 
-	jsxFactory: z.string().optional(),
+		jsxFactory: z.string(),
 
-	jsxFragmentFactory: z.string().optional(),
+		jsxFragmentFactory: z.string(),
 
-	jsxImportSource: z.string().optional(),
+		jsxImportSource: z.string(),
 
-	preserveValueImports: z.boolean().optional(),
+		preserveValueImports: z.boolean(),
 
-	project: z.string().optional(),
+		project: z.string(),
 
-	reactNamespace: z.string().optional(),
+		reactNamespace: z.string(),
 
-	removeComments: z.boolean().optional(),
+		removeComments: z.boolean(),
 
-	resolvePackageJsonExports: z.boolean().optional(),
+		resolvePackageJsonExports: z.boolean(),
 
-	resolvePackageJsonImports: z.boolean().optional(),
+		resolvePackageJsonImports: z.boolean(),
 
-	rewriteRelativeImportExtensions: z.boolean().optional(),
+		rewriteRelativeImportExtensions: z.boolean(),
 
-	rootDir: z.string().optional(),
+		rootDir: z.string(),
 
-	rootDirs: z.array(z.string()).optional(),
+		rootDirs: z.array(z.string()),
 
-	skipDefaultLibCheck: z.boolean().optional(),
+		skipDefaultLibCheck: z.boolean(),
 
-	skipLibCheck: z.boolean().optional(),
+		skipLibCheck: z.boolean(),
 
-	sourceMap: z.boolean().optional(),
+		sourceMap: z.boolean(),
 
-	sourceRoot: z.string().optional(),
+		sourceRoot: z.string(),
 
-	strict: z.boolean().optional(),
+		strict: z.boolean(),
 
-	strictBindCallApply: z.boolean().optional(),
+		strictBindCallApply: z.boolean(),
 
-	strictBuiltinIteratorReturn: z.boolean().optional(),
+		strictBuiltinIteratorReturn: z.boolean(),
 
-	strictFunctionTypes: z.boolean().optional(),
+		strictFunctionTypes: z.boolean(),
 
-	strictNullChecks: z.boolean().optional(),
+		strictNullChecks: z.boolean(),
 
-	strictPropertyInitialization: z.boolean().optional(),
+		strictPropertyInitialization: z.boolean(),
 
-	stripInternal: z.boolean().optional(),
+		stripInternal: z.boolean(),
 
-	tsBuildInfoFile: z.string().optional(),
+		tsBuildInfoFile: z.string(),
 
-	/** @deprecated */
-	suppressExcessPropertyErrors: z.boolean().optional(),
+		/** @deprecated */
+		suppressExcessPropertyErrors: z.boolean(),
 
-	/** @deprecated */
-	noUncheckedSideEffectImports: z.boolean().optional(),
+		/** @deprecated */
+		noUncheckedSideEffectImports: z.boolean(),
 
-	resolveJsonModule: z.boolean().optional(),
+		resolveJsonModule: z.boolean(),
 
-	suppressImplicitAnyIndexErrors: z.boolean().optional(),
+		suppressImplicitAnyIndexErrors: z.boolean(),
 
-	target: ScriptTargetSchema.optional(),
+		target: ScriptTargetSchema,
 
-	traceResolution: z.boolean().optional(),
+		traceResolution: z.boolean(),
 
-	typeRoots: z.array(z.string()).optional(),
+		typeRoots: z.array(z.string()),
 
-	types: z.array(z.string()).optional(),
+		types: z.array(z.string()),
 
-	useDefineForClassFields: z.boolean().optional(),
+		useDefineForClassFields: z.boolean(),
 
-	useUnknownInCatchVariables: z.boolean().optional(),
+		useUnknownInCatchVariables: z.boolean(),
 
-	verbatimModuleSyntax: z.boolean().optional(),
-});
+		verbatimModuleSyntax: z.boolean(),
+	})
+	.partial();
 
 export type CompilerOptions = z.infer<typeof CompilerOptionsSchema>;
