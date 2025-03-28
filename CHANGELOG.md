@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.2](https://github.com/JoshuaKGoldberg/zod-tsconfig/compare/0.1.1...0.1.2) (2025-03-28)
+
+### Bug Fixes
+
+- use top-level .partial()s instead of property-level .optional()s ([4ac992d](https://github.com/JoshuaKGoldberg/zod-tsconfig/commit/4ac992d9a7cdbc57b1ee23cd40d1fa547c7e44d6))
+
 ## [0.1.1](https://github.com/JoshuaKGoldberg/zod-tsconfig/compare/0.1.0...0.1.1) (2025-03-28)
 
 ### Bug Fixes
