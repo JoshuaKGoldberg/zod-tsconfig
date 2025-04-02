@@ -1,5 +1,11 @@
 # Changelog
 
+# [0.2.0](https://github.com/JoshuaKGoldberg/zod-tsconfig/compare/0.1.2...0.2.0) (2025-04-02)
+
+### Features
+
+- allow PascalCase string schemas TypeScript does too ([#21](https://github.com/JoshuaKGoldberg/zod-tsconfig/issues/21)) ([824f744](https://github.com/JoshuaKGoldberg/zod-tsconfig/commit/824f7443dcc13298d6f2c66fd032128ac0f20849)), closes [#18](https://github.com/JoshuaKGoldberg/zod-tsconfig/issues/18)
+
 ## [0.1.2](https://github.com/JoshuaKGoldberg/zod-tsconfig/compare/0.1.1...0.1.2) (2025-03-28)
 
 ### Bug Fixes
