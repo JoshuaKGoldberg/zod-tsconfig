@@ -10,7 +10,7 @@ import { blockCodecov, blockVitest, createConfig } from "create-typescript-app";
 export default createConfig({
 	refinements: {
 		blocks: {
-			remove: [blockCodecov, blockVitest],
+			exclude: [blockCodecov, blockVitest],
 		},
 	},
 });
