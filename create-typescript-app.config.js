@@ -5,23 +5,12 @@
 //   https://www.create.bingo/execution#transition-mode
 // Eventually these values should be inferable, making this config file unnecessary:
 //   https://github.com/JoshuaKGoldberg/bingo/issues/128
-import {
-	blockCodecov,
-	blockCTATransitions,
-	createConfig,
-} from "create-typescript-app";
+import { blockCodecov, blockVitest, createConfig } from "create-typescript-app";
 
 export default createConfig({
 	refinements: {
-		addons: [
-			blockCodecov({
-				env: {
-					CODECOV_TOKEN: "${{ secrets.CODECOV_TOKEN }}",
-				},
-			}),
-		],
 		blocks: {
-			add: [blockCTATransitions],
+			exclude: [blockCodecov, blockVitest],
 		},
 	},
 });
