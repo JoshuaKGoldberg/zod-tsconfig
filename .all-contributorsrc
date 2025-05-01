@@ -17,6 +17,15 @@
       "login": "JoshuaKGoldberg",
       "name": "Josh Goldberg ✨",
       "profile": "http://www.joshuakgoldberg.com"
+    },
+    {
+      "login": "jaridmargolin",
+      "name": "Jarid Margolin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/933685?v=4",
+      "profile": "https://github.com/jaridmargolin",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
