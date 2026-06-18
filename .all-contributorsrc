@@ -26,6 +26,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "nkgotcode",
+      "name": "Khanh Le",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58643031?v=4",
+      "profile": "https://www.itsnk.fyi",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
