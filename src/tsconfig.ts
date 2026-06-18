@@ -10,7 +10,7 @@ export const TSConfigSchema = z
 		extends: z.union([z.string(), z.array(z.string())]),
 		files: z.array(z.string()),
 		include: z.array(z.string()),
-		references: ReferencesSchema,
+		references: z.array(ReferencesSchema),
 	})
 	.optional();
 
