@@ -156,7 +156,7 @@ export const CompilerOptionsSchema = z
 
 		outFile: z.string(),
 
-		paths: z.record(z.string()),
+		paths: z.record(z.string(), z.string()),
 
 		preserveConstEnums: z.boolean(),
 

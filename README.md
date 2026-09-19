@@ -20,7 +20,7 @@
 ## Usage
 
 ```shell
-npm i zod-tsconfig
+npm i zod-tsconfig zod
 ```
 
 ```ts

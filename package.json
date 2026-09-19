@@ -33,9 +33,6 @@
 	"lint-staged": {
 		"*": "prettier --ignore-unknown --write"
 	},
-	"dependencies": {
-		"zod": ">=3.0.0"
-	},
 	"devDependencies": {
 		"@eslint-community/eslint-plugin-eslint-comments": "4.7.0",
 		"@eslint/js": "9.39.0",
@@ -66,7 +63,11 @@
 		"sentences-per-line": "0.3.0",
 		"tsup": "8.5.0",
 		"typescript": "5.9.2",
-		"typescript-eslint": "8.29.0"
+		"typescript-eslint": "8.29.0",
+		"zod": "4.4.3"
+	},
+	"peerDependencies": {
+		"zod": "^4.4.3"
 	},
 	"packageManager": "pnpm@10.34.5",
 	"engines": {
