@@ -12,6 +12,7 @@ export const TSConfigSchema = z
 		include: z.array(z.string()),
 		references: z.array(ReferencesSchema),
 	})
+	.partial()
 	.optional();
 
 export type TSConfig = z.infer<typeof TSConfigSchema>;
