@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.1](https://github.com/JoshuaKGoldberg/zod-tsconfig/compare/0.2.0...0.2.1) (2026-09-20)
+
+### Bug Fixes
+
+- accept references arrays ([#318](https://github.com/JoshuaKGoldberg/zod-tsconfig/issues/318)) ([b487434](https://github.com/JoshuaKGoldberg/zod-tsconfig/commit/b487434c45db18332b336c722e6d77c48bce75bc)), closes [#59](https://github.com/JoshuaKGoldberg/zod-tsconfig/issues/59)
+- make TSConfigSchema's top-level fields optional ([#341](https://github.com/JoshuaKGoldberg/zod-tsconfig/issues/341)) ([cbee232](https://github.com/JoshuaKGoldberg/zod-tsconfig/commit/cbee232d476cf2b371b2e36f68a8e2d2bfe06410)), closes [#340](https://github.com/JoshuaKGoldberg/zod-tsconfig/issues/340)
+- require zod v4 as a peer dependency ([#339](https://github.com/JoshuaKGoldberg/zod-tsconfig/issues/339)) ([0e78e30](https://github.com/JoshuaKGoldberg/zod-tsconfig/commit/0e78e30bb52283698e3dd9d6d7ba69af516c1f27)), closes [#338](https://github.com/JoshuaKGoldberg/zod-tsconfig/issues/338)
+
 # [0.2.0](https://github.com/JoshuaKGoldberg/zod-tsconfig/compare/0.1.2...0.2.0) (2025-04-02)
 
 ### Features
