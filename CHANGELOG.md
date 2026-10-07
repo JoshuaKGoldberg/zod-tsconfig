@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.3.1](https://github.com/JoshuaKGoldberg/zod-tsconfig/compare/0.3.0...0.3.1) (2026-10-07)
+
+### Bug Fixes
+
+- accept paths arrays and plugins without names in CompilerOptionsSchema ([#362](https://github.com/JoshuaKGoldberg/zod-tsconfig/issues/362)) ([5813b46](https://github.com/JoshuaKGoldberg/zod-tsconfig/commit/5813b4694884dd53a6219f51606d7fea4f2de89c)), closes [#361](https://github.com/JoshuaKGoldberg/zod-tsconfig/issues/361)
+
 # [0.3.0](https://github.com/JoshuaKGoldberg/zod-tsconfig/compare/0.2.1...0.3.0) (2026-10-07)
 
 ### Features
