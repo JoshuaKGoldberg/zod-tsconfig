@@ -1,5 +1,11 @@
 # Changelog
 
+# [0.3.0](https://github.com/JoshuaKGoldberg/zod-tsconfig/compare/0.2.1...0.3.0) (2026-10-07)
+
+### Features
+
+- support plugins in CompilerOptionsSchema ([#360](https://github.com/JoshuaKGoldberg/zod-tsconfig/issues/360)) ([5dfe21e](https://github.com/JoshuaKGoldberg/zod-tsconfig/commit/5dfe21eae657f30125e975ac044297f3daed41f6)), closes [#359](https://github.com/JoshuaKGoldberg/zod-tsconfig/issues/359)
+
 ## [0.2.1](https://github.com/JoshuaKGoldberg/zod-tsconfig/compare/0.2.0...0.2.1) (2026-09-20)
 
 ### Bug Fixes
