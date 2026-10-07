@@ -9,6 +9,7 @@ import {
 	NewLineKindSchema,
 	ScriptTargetSchema,
 } from "./enums.js";
+import { PluginImportSchema } from "./plugins.js";
 
 export const CompilerOptionsSchema = z
 	.object({
@@ -157,6 +158,8 @@ export const CompilerOptionsSchema = z
 		outFile: z.string(),
 
 		paths: z.record(z.string(), z.string()),
+
+		plugins: z.array(PluginImportSchema),
 
 		preserveConstEnums: z.boolean(),
 
