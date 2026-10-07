@@ -157,7 +157,7 @@ export const CompilerOptionsSchema = z
 
 		outFile: z.string(),
 
-		paths: z.record(z.string(), z.string()),
+		paths: z.record(z.string(), z.array(z.string())),
 
 		plugins: z.array(PluginImportSchema),
 
