@@ -6,7 +6,7 @@
 
 - accept paths arrays and plugins without names in CompilerOptionsSchema ([#362](https://github.com/JoshuaKGoldberg/zod-tsconfig/issues/362)) ([5813b46](https://github.com/JoshuaKGoldberg/zod-tsconfig/commit/5813b4694884dd53a6219f51606d7fea4f2de89c)), closes [#361](https://github.com/JoshuaKGoldberg/zod-tsconfig/issues/361)
 
-# [0.3.0](https://github.com/JoshuaKGoldberg/zod-tsconfig/compare/0.2.1...0.3.0) (2026-10-07)
+## [0.3.0](https://github.com/JoshuaKGoldberg/zod-tsconfig/compare/0.2.1...0.3.0) (2026-10-07)
 
 ### Features
 
@@ -20,7 +20,7 @@
 - make TSConfigSchema's top-level fields optional ([#341](https://github.com/JoshuaKGoldberg/zod-tsconfig/issues/341)) ([cbee232](https://github.com/JoshuaKGoldberg/zod-tsconfig/commit/cbee232d476cf2b371b2e36f68a8e2d2bfe06410)), closes [#340](https://github.com/JoshuaKGoldberg/zod-tsconfig/issues/340)
 - require zod v4 as a peer dependency ([#339](https://github.com/JoshuaKGoldberg/zod-tsconfig/issues/339)) ([0e78e30](https://github.com/JoshuaKGoldberg/zod-tsconfig/commit/0e78e30bb52283698e3dd9d6d7ba69af516c1f27)), closes [#338](https://github.com/JoshuaKGoldberg/zod-tsconfig/issues/338)
 
-# [0.2.0](https://github.com/JoshuaKGoldberg/zod-tsconfig/compare/0.1.2...0.2.0) (2025-04-02)
+## [0.2.0](https://github.com/JoshuaKGoldberg/zod-tsconfig/compare/0.1.2...0.2.0) (2025-04-02)
 
 ### Features
 
@@ -38,7 +38,7 @@
 
 - use .optional() on schemas ([c983ab7](https://github.com/JoshuaKGoldberg/zod-tsconfig/commit/c983ab7cc4c59edfa87ef3e8d3d50746bed9c3b2))
 
-# 0.1.0 (2025-03-27)
+## 0.1.0 (2025-03-27)
 
 ### Features
 

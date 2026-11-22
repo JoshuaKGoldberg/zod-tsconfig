@@ -1,4 +1,4 @@
 /.all-contributorsrc
 /.husky
-/lib
+/dist
 /pnpm-lock.yaml

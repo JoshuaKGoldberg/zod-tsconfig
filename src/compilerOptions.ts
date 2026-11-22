@@ -8,8 +8,8 @@ import {
 	ModuleResolutionKindSchema,
 	NewLineKindSchema,
 	ScriptTargetSchema,
-} from "./enums.js";
-import { PluginImportSchema } from "./plugins.js";
+} from "./enums.ts";
+import { PluginImportSchema } from "./plugins.ts";
 
 export const CompilerOptionsSchema = z
 	.object({
@@ -75,6 +75,7 @@ export const CompilerOptionsSchema = z
 		importHelpers: z.boolean(),
 
 		/** @deprecated */
+		// eslint-disable-next-line @typescript-eslint/no-deprecated -- TSConfig still allows this deprecated option
 		importsNotUsedAsValues: ImportsNotUsedAsValuesSchema,
 
 		inlineSourceMap: z.boolean(),

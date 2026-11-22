@@ -8,6 +8,7 @@ export const ImportsNotUsedAsValuesSchema = z.enum([
 ]);
 
 export type ImportsNotUsedAsValues = z.infer<
+	// eslint-disable-next-line @typescript-eslint/no-deprecated -- TSConfig still allows this deprecated option
 	typeof ImportsNotUsedAsValuesSchema
 >;
 
