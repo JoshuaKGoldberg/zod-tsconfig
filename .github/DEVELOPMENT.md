@@ -56,11 +56,6 @@ pnpm run lint --fix
 
 Note that you'll need to run `pnpm build` before `pnpm lint` so that lint rules which check the file system can pick up on any built files.
 
-### Debugging Tests
-
-This repository includes a [VS Code launch configuration](https://code.visualstudio.com/docs/editor/debugging) for debugging unit tests.
-To launch it, open a test file, then run _Debug Current Test File_ from the VS Code Debug panel (or press F5).
-
 ## Type Checking
 
 You should be able to see suggestions from [TypeScript](https://typescriptlang.org) in your editor for all open files.
