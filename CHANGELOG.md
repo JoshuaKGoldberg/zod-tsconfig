@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.3.2](https://github.com/JoshuaKGoldberg/zod-tsconfig/compare/0.3.1...0.3.2) (2026-11-24)
+
+### Bug Fixes
+
+- bump to create-typescript-app@2.87.18 ([#364](https://github.com/JoshuaKGoldberg/zod-tsconfig/issues/364)) ([6321ac5](https://github.com/JoshuaKGoldberg/zod-tsconfig/commit/6321ac5da522ce2e75b610018b6eeaa85ea7855b)), closes [#363](https://github.com/JoshuaKGoldberg/zod-tsconfig/issues/363)
+
 ## [0.3.1](https://github.com/JoshuaKGoldberg/zod-tsconfig/compare/0.3.0...0.3.1) (2026-10-07)
 
 ### Bug Fixes
