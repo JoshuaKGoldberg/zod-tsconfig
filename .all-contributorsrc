@@ -54,6 +54,5 @@
   ],
   "projectName": "zod-tsconfig",
   "projectOwner": "JoshuaKGoldberg",
-  "repoType": "github",
-  "commitConvention": "angular"
+  "repoType": "github"
 }

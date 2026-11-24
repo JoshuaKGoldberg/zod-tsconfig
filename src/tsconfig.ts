@@ -1,7 +1,7 @@
 import { z } from "zod";
 
-import { CompilerOptionsSchema } from "./compilerOptions.js";
-import { ReferencesSchema } from "./references.js";
+import { CompilerOptionsSchema } from "./compilerOptions.ts";
+import { ReferencesSchema } from "./references.ts";
 
 export const TSConfigSchema = z
 	.object({
